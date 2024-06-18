@@ -70,3 +70,120 @@
     font-style: italic;
   }
   
+
+
+
+  .cabecalho {
+    background-color: #3b3b3b;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-legal {
+    font-family: 'Cabin', sans-serif;
+}
+
+.imagem-cabecalho {
+    width: 5%
+}
+
+.cabecalho-lista-item a {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Cabin', sans-serif;
+}
+
+.escola {
+    background-image: linear-gradient(#3b3b3b, #bebebebf);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+}
+
+.escola-texto {
+    margin: 0 16px;
+}
+
+.escola-imagem {
+    width: 30%;
+}
+
+.escola-div-conteudo {
+    width: 50%;
+}
+
+.escola-titulo {
+    padding: 24px 0;
+}
+
+.estudante-titulo {
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    padding: 50px 0
+}
+
+.estudante-div {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+.estudante-imagem {
+    width: 150px;
+}
+
+.estudantes-todos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+.estudante-nome {
+    font-family: 'Cabin', sans-serif;
+}
+
+.rodape {
+    background-color: #bebebebf;
+    text-align: center;
+}
+
+.rodape-titulo {
+    padding: 12px 0;
+    font-family: 'Cabin', sans-serif;
+    color: #ffffff
+}
+
+
+@media screen and (max-width: 390px) {
+    .estudantes-todos {
+        display: block;
+    }
+}
+
+.formulario {
+    background-color: #bebebebf;
+    padding: 20px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.formulario p {
+    width: 100%;
+    font-size: 1.5em;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+}
